@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CodeCraft AI
 
-## Getting Started
+CodeCraft AI is an AI-powered coding assistant that helps developers explain, debug, and generate code through a modern and interactive developer experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 AI Code Explanation
+Understand complex code instantly with detailed AI-generated explanations and logic breakdowns.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🐞 Smart Debugging
+Detect bugs, identify issues, and receive intelligent debugging suggestions to improve code quality.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡ AI Code Generation
+Generate production-ready code snippets in multiple programming languages using natural language prompts.
 
-## Learn More
+## 📜 Activity History
+Access and revisit your recent AI interactions, generated code, and debugging sessions.
 
-To learn more about Next.js, take a look at the following resources:
+## 🌙 Modern Responsive UI
+Beautiful glassmorphism-inspired interface with smooth animations and responsive layouts across devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Fast Performance
+Optimized for speed and seamless user experience with near-instant AI responses.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 💻 Supported Languages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- JavaScript
+- TypeScript
+- Python
+- Java
+- C++
+- Go
+- Rust
+- React
+- Node.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# 🛠️ Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Google Gemini AI
+- Vercel
+
+---
+
+# 🎯 Built For
+
+- Developers
+- Students
+- Learners
+- Interview Preparation
+- Rapid Prototyping
+- Code Understanding
+
+---
+
+# 💖 Built with Next.js + Google Gemini AI
