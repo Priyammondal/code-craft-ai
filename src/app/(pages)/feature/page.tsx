@@ -1,4 +1,19 @@
 import Link from 'next/link'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Features",
+    description:
+        "Discover powerful CodeCraft AI features including AI code explanation, smart debugging, code generation, history tracking, and modern developer tools.",
+    keywords: [
+        "AI coding features",
+        "Code debugger",
+        "AI code generator",
+        "Developer tools",
+        "Programming assistant",
+        "CodeCraft AI features",
+    ],
+};
 
 export default function FeaturesPage() {
     const features = [

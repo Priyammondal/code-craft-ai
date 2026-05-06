@@ -1,5 +1,21 @@
-"use client";
+import CopyButton from '@/app/components/CopyButton';
 import Link from 'next/link'
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Docs",
+    description:
+        "Explore CodeCraft AI product documentation, features, code explanation tools, debugging assistance, and AI-powered code generation.",
+    keywords: [
+        "CodeCraft AI docs",
+        "AI coding documentation",
+        "Code explanation tool",
+        "AI debugger",
+        "AI code generation",
+        "Developer productivity",
+    ],
+};
 
 export default function DocsPage() {
     const sections = [
@@ -188,25 +204,13 @@ export default function DocsPage() {
                                                 Quick Preview
                                             </span>
 
-                                            <button
-                                                onClick={() =>
-                                                    navigator.clipboard.writeText(`function fibonacci(n) {
+                                            <CopyButton
+                                                text={`function fibonacci(n) {
   if (n <= 1) return n;
+
   return fibonacci(n - 1) + fibonacci(n - 2);
-}`)
-                                                }
-                                                className='
-                          text-xs
-                          px-3 py-1
-                          rounded-lg
-                          bg-white/10 hover:bg-white/20
-                          text-gray-300
-                          transition-all duration-300
-                          cursor-pointer
-                        '
-                                            >
-                                                Copy
-                                            </button>
+}`}
+                                            />
                                         </div>
 
                                         <pre className='p-5 overflow-x-auto text-sm leading-7 text-green-400'>
