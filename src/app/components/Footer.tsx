@@ -81,7 +81,7 @@ const Footer = () => {
 
                         {/* GitHub */}
                         <a
-                            href='https://github.com/your-username/your-repo'
+                            href='https://github.com/Priyammondal/code-craft-ai'
                             target='_blank'
                             rel='noopener noreferrer'
                             className='
